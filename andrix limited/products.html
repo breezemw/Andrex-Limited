@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Andrex Limited Company</title>
+    <meta name="description" content="Browse our complete range of tissue products, stationery, and office supplies.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/placeholder.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ...existing header code... -->
+
+    <main class="products-page">
+        <div class="products-hero">
+            <div class="container">
+                <h1>Our Products</h1>
+                <p>Quality essentials for home, school, and office</p>
+            </div>
+        </div>
+
+        <section class="products-section">
+            <div class="container">
+                <div class="products-sidebar">
+                    <div class="filters">
+                        <h3>Categories</h3>
+                        <ul class="category-filters">
+                            <li><button class="filter-btn active" data-category="all">All Products</button></li>
+                            <li><button class="filter-btn" data-category="tissue">Tissue Products</button></li>
+                            <li><button class="filter-btn" data-category="notebooks">Exercise Books & Notebooks</button></li>
+                            <li><button class="filter-btn" data-category="writing">Pens & Writing Instruments</button></li>
+                            <li><button class="filter-btn" data-category="paper">Paper Products</button></li>
+                            <li><button class="filter-btn" data-category="stationery">Stationery Essentials</button></li>
+                            <li><button class="filter-btn" data-category="school">School Supplies</button></li>
+                            <li><button class="filter-btn" data-category="office">Office Supplies</button></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="products-grid" id="productsGrid">
+                    <!-- Products will be dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ...existing footer code... -->
+    <script src="js/products.js"></script>
+</body>
+</html>
